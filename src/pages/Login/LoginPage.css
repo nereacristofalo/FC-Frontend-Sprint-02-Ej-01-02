@@ -1,0 +1,21 @@
+.login-container {
+  background-color: white;
+  width: 32%;
+  height: auto;
+  min-width: 610px;
+  max-width: 610px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (min-width: 10px) and (max-width: 980px) {
+  .login-container {
+    width: 100%;
+    align-items: center;
+    padding: 0 10px 10px 10px;
+    min-width: unset;
+  }
+}

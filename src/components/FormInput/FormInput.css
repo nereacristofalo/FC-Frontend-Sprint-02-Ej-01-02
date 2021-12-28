@@ -1,0 +1,25 @@
+.form-item {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.form-input {
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-weight: bold;
+  font-size: 14px;
+  color: #121625;
+  line-height: 16px;
+  user-select: none;
+}
+
+.form-input input {
+  background: #f8f8f9;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 12px;
+}
